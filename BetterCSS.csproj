@@ -20,11 +20,14 @@
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
     <OldToolsVersion>4.0</OldToolsVersion>
+<<<<<<< HEAD
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
     <UseGlobalApplicationHostFile />
+=======
+>>>>>>> 5282f9da77c7017df209462342f402110621415d
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -63,6 +66,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Form.html" />
+<<<<<<< HEAD
     <Content Include="css\init.css">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -73,6 +77,10 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="js\less-2.7.1.min.js" />
+=======
+    <Content Include="css\init.css" />
+    <Content Include="css\My.css" />
+>>>>>>> 5282f9da77c7017df209462342f402110621415d
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -96,9 +104,15 @@
     <VisualStudio>
       <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
         <WebProjectProperties>
+<<<<<<< HEAD
           <UseIIS>False</UseIIS>
           <AutoAssignPort>False</AutoAssignPort>
           <DevelopmentServerPort>8005</DevelopmentServerPort>
+=======
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>53897</DevelopmentServerPort>
+>>>>>>> 5282f9da77c7017df209462342f402110621415d
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>http://localhost:8005/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
